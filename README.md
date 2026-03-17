@@ -9,16 +9,15 @@ This project is designed to make it easy to incorporate Disney Wait Times in you
 
 ## Installation
 The project is available on [PyPI](https://pypi.org/project/disneyqueuetimes/).
-`pip install disneyqueuetimes`
+<br>`pip install disneyqueuetimes`
 
 ## How?
 ### Quick Start
-`import disneyqueuetimes as dqt
-if __name__ == "__main__":
-    print(dqt.getParkWaits("Magic Kingdom"))`
-This returns a dictionary of all current wait times in the Magic Kingdom.
-
-See the [wiki](https://github.com/oltaylor/disney-queue-times/wiki/) for all features!
+`import disneyqueuetimes as dqt`
+<br>`if __name__ == "__main__":`
+<br>`    print(dqt.getParkWaits("Magic Kingdom"))`
+<br>This returns a dictionary of all current wait times in the Magic Kingdom.
+<br>See the [wiki](https://github.com/oltaylor/disney-queue-times/wiki/) for all features!
 
 ## Features
 - View the wait time(s) for any/all attraction(s) in any Disney Park
