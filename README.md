@@ -7,8 +7,18 @@ As stated above, the library uses data from [Queue-Times.com](https://queue-time
 ## What?
 This project is designed to make it easy to incorporate Disney Wait Times in your projects from all the parks around the world.
 
+## Installation
+The project is available on [PyPI](https://pypi.org/project/disneyqueuetimes/).
+`pip install disneyqueuetimes`
+
 ## How?
-See the [wiki](https://github.com/oltaylor/disney-queue-times/wiki/) for usage information.
+### Quick Start
+`import disneyqueuetimes as dqt
+if __name__ == "__main__":
+    print(dqt.getParkWaits("Magic Kingdom"))`
+This returns a dictionary of all current wait times in the Magic Kingdom.
+
+See the [wiki](https://github.com/oltaylor/disney-queue-times/wiki/) for all features!
 
 ## Features
 - View the wait time(s) for any/all attraction(s) in any Disney Park
